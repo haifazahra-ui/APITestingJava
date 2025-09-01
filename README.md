@@ -5,8 +5,9 @@
 - entity : buat db table mapping
 - dto : data transfer object (antara BE sama API)
 - config : applicaton cofiguration buat db sama security
-flow : controller - services - repository - db
-component/urutan = controller - services - repository - ntt - dto - config
+  
+- flow : controller - services - repository - db
+- component/urutan = controller - services - repository - ntt - dto - config
 
 # step by step = 
 1. project foundation (https://start.spring.io/)
