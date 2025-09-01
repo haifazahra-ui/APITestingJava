@@ -7,7 +7,7 @@
 - config : applicaton cofiguration buat db sama security
   
 - flow : controller - services - repository - db
-- component/urutan = controller - services - repository - ntt - dto - config
+- component/urutan = controller - services - repository - entity - dto - config
 
 # step by step = 
 1. project foundation (https://start.spring.io/)
