@@ -11,13 +11,13 @@
 
 # step by step = 
 1. project foundation (https://start.spring.io/)
-    <img src="spring initializr.png" width="400">
-2. setting di application.properties (buat nama db buat port & gpa configuration)
-3. data layer: bikin di dalam folder entity ada user.java (penamaan file dalam folder harus dari huruf besar) di dalam repository bikin UserRepositor.java
-4. bussines layer di dalam dto : auth response.java - loginrequest.java - registerrequest.java
-5. di dalam controller bikin AuthController.java
-6. di dalam config bikin SecurityConfig.java
-7. testing application with postman
+2. <img src="spring initializr.png" width="400">
+3. setting di application.properties (buat nama db buat port & gpa configuration)
+4. data layer: bikin di dalam folder entity ada user.java (penamaan file dalam folder harus dari huruf besar) di dalam repository bikin UserRepositor.java
+5. bussines layer di dalam dto : auth response.java - loginrequest.java - registerrequest.java
+6. di dalam controller bikin AuthController.java
+7. di dalam config bikin SecurityConfig.java
+8. testing application with postman
 
 # API Testing
 
