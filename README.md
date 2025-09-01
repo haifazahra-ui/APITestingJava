@@ -41,12 +41,12 @@ Method: POST
 URL: http://localhost:8081/api/auth/register
 Headers: Content-Type: application/json
 
-Body raw (JSON):
-{
-"username": "testuser",
-"email": "test@example.com",
-"password": "123456"
-}
+Body raw (JSON):  
+{  
+"username": "testuser",  
+"email": "test@example.com",  
+"password": "123456"  
+}  
 Response: 200 OK
 
 4. Add new request Login 
@@ -55,13 +55,12 @@ Method: POST
 URL: http://localhost:8081/api/auth/login
 Headers: Content-Type: application/json
 
-Body raw (JSON):
-
-{
-"username": "testuser",
-"password": "123456"
-}
-Response: 200 OK
+Body raw (JSON):  
+{  
+"username": "testuser",  
+"password": "123456"  
+}  
+Response: 200 OK  
 
 5. Add new request Check user
 
@@ -69,12 +68,12 @@ Method: GET
 URL: http://localhost:8081/api/auth/users
 SEND !
 
-Response: 200 OK
-{
-"message": "Users retrieved successfully!",
-"success": true,
-"data": []
-}
+Response: 200 OK  
+{  
+"message": "Users retrieved successfully!",  
+"success": true,  
+"data": []  
+}  
 
 6. Add new request Check user by id
 
@@ -82,29 +81,29 @@ Method: GET
 URL: http://localhost:8081/api/auth/users/{id}
 SEND !
 
-Response: 200 OK
-{
-"message": "User found!",
-"success": true,
-"data": {}
-}
+Response: 200 OK  
+{  
+"message": "User found!",  
+"success": true,  
+"data": {}  
+}  
 
 7. Add new request Update user
 
 Method: PUT
 URL: http://localhost:8081/api/auth/users/{id}
 
-Body raw (JSON):
-tinggal rubah data yang mau di rubah
-{
-"username": "haifazahra", 
-"email": "haifazaahra@gmail.com",
-"password": "1234567"
-}
+Body raw (JSON):  
+tinggal rubah data yang mau di rubah  
+{  
+"username": "haifazahra",   
+"email": "haifazaahra@gmail.com",  
+"password": "1234567"  
+}  
 
-Response: 200 OK
-{
-"message": "User updated successfully!",
-"success": true,
-"data": {}
-}
+Response: 200 OK  
+{  
+"message": "User updated successfully!",  
+"success": true,  
+"data": {}  
+}  
