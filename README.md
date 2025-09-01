@@ -1,9 +1,10 @@
-controller : buat rest end point atau http request (POSTMAN)
-services : buat bussines logic
-repository : buat db opperation
-entity : buat db table mapping
-dto : data transfer object (antara BE sama API)
-config : applicaton cofiguration buat db sama security
+# DESCRIPTION
+- controller : buat rest end point atau http request (POSTMAN)
+- services : buat bussines logic
+- repository : buat db opperation
+- entity : buat db table mapping
+- dto : data transfer object (antara BE sama API)
+- config : applicaton cofiguration buat db sama security
 flow : controller - services - repository - db
 component/urutan = controller - services - repository - ntt - dto - config
 
